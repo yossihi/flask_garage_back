@@ -30,7 +30,6 @@ jwt = JWTManager(app)
 
 # Get the directory where app.py is located
 app_directory = os.path.dirname(__file__)
-app.config['UPLOAD_FOLDER'] = '/uploads'
 
 # SQLalchemy models ---------------------------------------->
 
